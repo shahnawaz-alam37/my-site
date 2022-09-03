@@ -8,14 +8,27 @@ body{
 }
 h1 {
     margin-top: 0;
+    color: #66BFBF;
+    line-height: 1.5;
+}
+h2{
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
 }
 /* ************sections of content************** */
 .top-container{
-    background-color: #F0F2B6;
+    background-color: #16213E;
     margin: 0;
-    
+    color: white;
     padding-top:200px;
-    
+    font-size: 30px;
     position: relative;
     /* height: 700px; */
 }
@@ -24,8 +37,18 @@ h1 {
 }
 .bottom-container{
    background-color: #231955;
+   color: aliceblue;
+   text-decoration: none;
+   padding-top: 20px;
 }
-
+.copyright{
+    margin: 30px auto 0 auto;
+    padding: 10px;
+}
+.footer-link{
+    text-decoration: none;
+    padding:20px
+}
 .bottom-cloud{
     position:absolute;
     bottom: 300px;
@@ -36,8 +59,64 @@ h1 {
     right: 400px;
     top: 50px;
 }
-.copyright{
-    margin: 10px 0 0 0;
-    padding: 20px;
-    color: white;
+.dev{
+    text-decoration: underline;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-img1{
+    width: 25%;
+    border-radius: 100px;
+    float: left;
+    margin-right: 30px;
+}
+.skill-img2{
+    width: 30%;
+    border-radius: 150px;
+    float: right;
+    margin-left: 30px;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 27px;
+    background: #34add9;
+    padding: 12px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #eb9494;
+    background-image: -webkit-linear-gradient(top, #eb9494, #3498db);
+    background-image: -moz-linear-gradient(top, #eb9494, #3498db);
+    background-image: -ms-linear-gradient(top, #eb9494, #3498db);
+    background-image: -o-linear-gradient(top, #eb9494, #3498db);
+    background-image: linear-gradient(to bottom, #eb9494, #3498db);
+    text-decoration: none;
+}
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 8%;
+}
+.profile{
+    width: 45%;
+    margin: auto;
+    padding:20px 0 20px 0;
+}
+.skills{
+    padding :80px 0 20px 0;
+}
+.contact-me{
+    line-height: 2;
+    padding-bottom: 50px;
 }
